@@ -1,6 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,700&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap');
 html {
     background-color: white;
+    min-width: 1080px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    height: 90px;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
 }
 
 body {
@@ -11,25 +25,14 @@ body {
     height: 300;
 }
 
-h1 {
-    height: 90px;
-    padding: 15px;
-    margin: 0;
-    width: 100%;
-    left: 0px;
-    text-align: center;
-    font-size: 60px;
-    font-family: "Permanent Marker", sans-serif;
-}
-
 #bar {
     left: 0px;
-    height: 45px;
+    height: 40px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 100%;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 7px;
     background-color: white;
 }
@@ -49,12 +52,13 @@ h1 {
 
 #bar ul li a {
     text-decoration: none;
-    padding: 10px 20px;
+    margin: 6px 70px;
     display: block;
     color: black;
     text-align: center;
-    font-size: medium;
+    font-size: 17px;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 li a:hover {
@@ -65,5 +69,37 @@ li a:hover {
 #about_photo {
     position: relative;
     width: 100%;
+    filter: blur(6px);
     -webkit-filter: blur(6px);
+}
+
+#intro {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#quote1 {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 130px;
+    font-family: "Staatliches", sans-serif;
+    margin: 0;
+    opacity: 0.4;
+    width: 100%;
+}
+#quote2 {
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 130px;
+    font-family: "Staatliches", sans-serif;
+    margin: 0;
+    opacity: 0.4;
+    width: 100%;
 }
