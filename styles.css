@@ -14,7 +14,7 @@ h1 {
     left: 0px;
     text-align: center;
     font-size: 60px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
     width: 100%;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     background-color: white;
 }
 
@@ -66,7 +66,7 @@ li a:hover {
     transition-duration: 0.4s;
   }
 
-#about_photo {
+#intro_photo {
     position: relative;
     width: 100%;
     filter: blur(6px);
@@ -81,25 +81,24 @@ li a:hover {
 
 #quote1 {
     position: absolute;
-    top: 40%;
+    top: 25%;
     right: 5%;
     text-align: right;
     margin-right: 30px;
     font-size: 130px;
     font-family: "Staatliches", sans-serif;
-    margin: 0;
     opacity: 0.4;
     width: 100%;
 }
+
 #quote2 {
     position: absolute;
-    top: 60%;
+    top: 45%;
     right: 5%;
     text-align: right;
     margin-right: 30px;
     font-size: 130px;
     font-family: "Staatliches", sans-serif;
-    margin: 0;
     opacity: 0.4;
     width: 100%;
 }
