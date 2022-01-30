@@ -106,3 +106,30 @@ li a:hover {
     opacity: 0.4;
     width: 100%;
 }
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#about_me {
+    display: flex;
+    align-items: center;
+}
+
+#about_text {
+    margin-top: 10px;
+    width: 35%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#about_text_photo {
+    margin: 55px;
+    width: 40%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
