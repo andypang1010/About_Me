@@ -108,6 +108,7 @@ li a:hover {
 }
 
 h2 {
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -118,18 +119,22 @@ p {
 #about_me {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 #about_text {
     margin-top: 10px;
     width: 35%;
-    margin-left: 5%;
+    margin-left: 0px;
     display: inline-block;
 }
 
 #about_text_photo {
-    margin: 55px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 100px;
     width: 40%;
     filter: blur(1px);
     -webkit-filter: blur(1px);
+    border-radius: 10px;
 }
