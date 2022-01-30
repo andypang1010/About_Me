@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,700&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,700&family=Press+Start+2P&family=Share+Tech+Mono&family=Staatliches&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -9,52 +9,61 @@ html {
     background-color: white;
     min-width: 1080px;
     overflow-x: hidden;
-}
-
-h1 {
-    font-family: "Orbitron", sans-serif;
-    padding: 15px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 900;
-}
-
-body {
     text-align: left;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     color: black;
-    height: 300;
 }
 
-#bar {
+h1 {
+    font-family: "Press Start 2P", monospace;
+    padding: 45px;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    background-color: white;
+    padding-top: 65px;
+}
+
+
+h2 {
+    font-family: "Press Start 2P", cursive;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #ff5e00;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#nav_bar {
     left: 0px;
-    height: 40px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    height: 38px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     width: 100%;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     background-color: white;
 }
 
-#bar ul {
+#nav_bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block;
 }
 
-#bar ul li {
+#nav_bar ul li {
     margin: 0;
     padding: 0;
     float:left;
+    border-left: 2px solid black;
 }
 
-#bar ul li a {
+#nav_bar ul li a {
     text-decoration: none;
     margin: 6px 70px;
     display: block;
@@ -83,40 +92,17 @@ li a:hover {
     color: white;
 }
 
-#quote1 {
+#quote {
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 5%;
     text-align: right;
     margin-right: 30px;
-    font-size: 130px;
-    font-family: "Staatliches", sans-serif;
-    opacity: 0.4;
+    font-size: 100px;
+    font-family: "Share Tech Mono", monospace;
+    opacity: 0.7;
     width: 100%;
-    color: white;
-}
-
-#quote2 {
-    position: absolute;
-    top: 45%;
-    right: 5%;
-    text-align: right;
-    margin-right: 30px;
-    font-size: 130px;
-    font-family: "Staatliches", sans-serif;
-    opacity: 0.4;
-    width: 100%;
-    color: white;
-}
-
-h2 {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    color: red;
-}
-
-p {
-    margin-bottom: 20px;
+    font-weight: 400;
 }
 
 #about_me {
@@ -126,18 +112,24 @@ p {
 }
 
 #about_text {
-    margin-top: 10px;
+    margin-top: 60px;
     width: 35%;
     margin-left: 0px;
     display: inline-block;
 }
 
 #about_text_photo {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 10%;
     margin-right: 100px;
     width: 40%;
     filter: blur(1px);
     -webkit-filter: blur(1px);
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#highlight{
+    font-family: "Share Tech Mono", monospace;
+    font-size: 18px;
 }
