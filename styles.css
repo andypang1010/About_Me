@@ -20,7 +20,7 @@ h1 {
     padding: 45px;
     text-align: center;
     font-size: 70px;
-    color: black;
+    color: #ff5e00;
     background-color: white;
     padding-top: 65px;
 }
@@ -40,8 +40,8 @@ p {
 #nav_bar {
     left: 0px;
     height: 38px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(37, 37, 37);
+    border-bottom: 2px solid rgb(37, 37, 37);
     width: 100%;
     text-align: center;
     overflow: hidden;
@@ -60,14 +60,14 @@ p {
     margin: 0;
     padding: 0;
     float:left;
-    border-left: 2px solid black;
+    border-left: 2px solid rgb(37, 37, 37);
 }
 
 #nav_bar ul li a {
     text-decoration: none;
     margin: 6px 70px;
     display: block;
-    color: black;
+    color: rgb(37, 37, 37);
     text-align: center;
     font-size: 17px;
     font-weight: 300;
@@ -82,8 +82,8 @@ li a:hover {
 #intro_photo {
     position: relative;
     width: 100%;
-    filter: blur(6px);
-    -webkit-filter: blur(6px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
 }
 
 #intro {
@@ -105,13 +105,13 @@ li a:hover {
     font-weight: 400;
 }
 
-#about_me {
+.block {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
 
-#about_text {
+.block_text {
     margin-top: 60px;
     width: 35%;
     margin-left: 0px;
@@ -123,8 +123,6 @@ li a:hover {
     margin-left: 10%;
     margin-right: 100px;
     width: 40%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
     border-radius: 20px;
     background-color: black;
 }
