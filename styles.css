@@ -103,6 +103,7 @@ li a:hover {
     opacity: 0.7;
     width: 100%;
     font-weight: 400;
+    color: white;
 }
 
 .block {
@@ -111,15 +112,8 @@ li a:hover {
     margin-bottom: 50px;
 }
 
-.block_text {
-    margin-top: 60px;
-    width: 35%;
-    margin-left: 0px;
-    display: inline-block;
-}
-
 #about_text_photo {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 10%;
     margin-right: 100px;
     width: 40%;
